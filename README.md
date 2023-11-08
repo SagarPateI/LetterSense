@@ -133,4 +133,5 @@ We would like to thank Abhishek Jaiswal for providing the "Standard OCR Dataset"
 
 REFERENCES 
 [1]	Jaiswal, Abhishek. “Standard OCR Dataset.” Kaggle, 7 Oct. 2021, https://www.kaggle.com/datasets/preatcher/standard-ocr-dataset.
+
 [2]	Renotte, Nicholas. “Build a Deep Facial Recognition App from Paper to Code // Deep Learning Project Tutorial.” YouTube, 8 Sept. 2021, https://www.youtube.com/watch?v=bK_k7eebGgc&list=PLgNJO2hghbmhHuhURAGbe6KWpiYZt0AMH.
