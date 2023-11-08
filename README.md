@@ -36,7 +36,7 @@ The dataset used is the "Standard OCR Dataset" by Abhishek Jaiswal on Kaggle, wh
 <table style="width: 100%;">
   <tr>
     <td style="text-align: center; width: 100%;">
-      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure1.png" alt="Figure 1" width="300" style="padding: 5px;">
+      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure1.png" alt="Figure 1" width="600" style="padding: 5px;">
       <br><br><text style="font-size: 24px;"><b>Figure 1. Distribution of the data (count by character)</b></text>
     </td>
   </tr>
@@ -49,7 +49,7 @@ We have used data augmentation techniques to improve the flexibility of the mode
 <table style="width: 100%;">
   <tr>
     <td style="text-align: center; width: 100%;">
-      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure2.png" alt="Figure 2" width="300" style="padding: 5px;">
+      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure2.png" alt="Figure 2" width="600" style="padding: 5px;">
       <br><br><text style="font-size: 24px;"><b>Figure 2. Preview of the Dataset (randomly selected post-processed letters)</b></text>
     </td>
   </tr>
@@ -67,7 +67,7 @@ We observed that after training the model for 32 epochs, the highest validation 
 <table style="width: 100%;">
   <tr>
     <td style="text-align: center; width: 100%;">
-      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure3.png" alt="Figure 3" width="300" style="padding: 5px;">
+      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure3.png" alt="Figure 3" width="600" style="padding: 5px;">
       <br><br><text style="font-size: 24px;"><b>Figure 3. Training and Validation Accuracy (left), Training and Validation Loss (right) at 32 epochs</b></text>
     </td>
   </tr>
@@ -78,7 +78,7 @@ We also noticed that there was confusion between the characters "0" and "O" in t
 <table style="width: 100%;">
   <tr>
     <td style="text-align: center; width: 100%;">
-      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure4.png" alt="Figure 4" width="300" style="padding: 5px;">
+      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure4.png" alt="Figure 4" width="600" style="padding: 5px;">
       <br><br><text style="font-size: 24px;"><b>Figure 4. Confusion table at 32 epochs.</b></text>
     </td>
   </tr>
@@ -89,7 +89,7 @@ After evaluating the results, we decided to reduce the number of epochs to 5. Th
 <table style="width: 100%;">
   <tr>
     <td style="text-align: center; width: 100%;">
-      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure5.png" alt="Figure 5" width="300" style="padding: 5px;">
+      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure5.png" alt="Figure 5" width="600" style="padding: 5px;">
       <br><br><text style="font-size: 24px;"><b>Figure 5. Training and Validation Accuracy (left), Training and Validation Loss (right) at 5 epochs</b></text>
     </td>
   </tr>
@@ -100,7 +100,7 @@ However, we also noticed that the overall accuracy had decreased slightly, with 
 <table style="width: 100%;">
   <tr>
     <td style="text-align: center; width: 100%;">
-      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure6.png" alt="Figure 6" width="300" style="padding: 5px;">
+      <img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_figure6.png" alt="Figure 6" width="600" style="padding: 5px;">
       <br><br><text style="font-size: 24px;"><b>Figure 6. Confusion table at 5 epochs.</b></text>
     </td>
   </tr>
@@ -112,7 +112,7 @@ We tested the model with three input words: "HELLO", "SAGAR", and "000OOO". In t
   <tr>
     <td style="text-align: center; width: 100%;">
       <text style="font-size: 24px;"><b>TABLE I.  	SAMPLE INPUT DEMONSTRATON </b></text>
-      <br><br><img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_table1.png" alt="Table 1" width="300" style="padding: 5px;">
+      <br><br><img src="https://raw.githubusercontent.com/SagarPateI/LetterSense/main/README/report_table1.png" alt="Table 1" width="600" style="padding: 5px;">
     </td>
   </tr>
 </table>
