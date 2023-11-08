@@ -1,51 +1,40 @@
-<h1>LetterSense: An Assistive Reading Model</h1>
+# LetterSense: Deep Learning Model for Letter and Number Recognition
 
-<h1>Introduction:</h1>
-<p>LetterSense is a deep learning AI project that trains a convolutional neural network to recognize letters and numbers, enabling visually impaired people to read text.</p>
+## Introduction
+The **LetterSense** project is dedicated to developing a cutting-edge solution to assist visually impaired individuals in real-time text recognition. Leveraging computer vision and deep learning techniques, the primary focus is to create an accessible and cost-effective method for character and number recognition from images. The project involves training a Convolutional Neural Network (CNN) using the Standard OCR Dataset, enabling visually impaired individuals to read text using mobile devices or smart glasses.
 
-<h2>Objective:</h2>
-<p>The primary aim is to create a model that recognizes letters and numbers in real-time, assisting visually impaired individuals in accessing written information.</p>
+## Objectives
+- **Accessibility:** Aid visually impaired individuals in reading text through deep learning models.
+- **Real-Time Recognition:** Provide an immediate recognition solution using the camera on mobile phones or glasses.
+- **Improving Independence:** Enable individuals to independently navigate and access written information.
 
-<h2>Features:</h2>
-<ul>
-    <li>Recognizes handwritten and printed characters</li>
-    <li>Trained on the "Standard OCR Dataset" by Abhishek Jaiswal from Kaggle</li>
-    <li>Utilizes Convolutional Neural Network (CNN) architecture</li>
-    <li>Accuracy achieved: 95.63% on the validation set</li>
-</ul>
+## Repository Contents
+- **Data:** Utilizes the "Standard OCR Dataset" by Abhishek Jaiswal, containing 21,636 images of characters in various fonts and sizes.
+- **Code:** The main Python notebook contains the code used to build and train the CNN model.
+- **Documentation:** Scientific report detailing project objectives, methodologies, and outcomes.
+- **Resources:** Links to external resources and references for further understanding.
 
-<h2>Implementation:</h2>
-<p>Implemented using Python, Keras, TensorFlow, and hosted on GitHub for version control.</p>
+## Model Details
+- **Deep Learning Framework:** Keras with TensorFlow backend.
+- **Model Architecture:** CNN model with a 2D convolutional layer, max-pooling layer, dense layer, and output layer with softmax activation.
+- **Training Data:** The dataset comprises 36 classes of characters, split into training and testing sets.
 
-<h2> Dataset:</h2>
-<p>The dataset includes 21,636 PNG images of characters in various fonts and sizes, divided into training and testing sets.</p>
+## Results and Conclusion
+The CNN model achieved a validation accuracy of 95.63% with a reduced epoch count to minimize overfitting. Despite challenges in distinguishing certain characters like "0" and "O", the model exhibited commendable efficiency in recognizing handwritten characters.
 
-<h2>Methods:</h2>
-<ul>
-    <li>Data preprocessing using ImageDataGenerator</li>
-    <li>Utilization of grayscale images for character shape recognition</li>
-    <li>Data augmentation techniques for model flexibility</li>
-    <li>Employing Stochastic Gradient Descent (SGD) optimizer for backpropagation</li>
-</ul>
+## Future Scope
+- **Dataset Expansion:** Larger datasets might improve accuracy, although training times may increase.
+- **Preprocessing Enhancements:** Advanced techniques could refine character recognition and reduce confusion between specific characters.
+- **Integration:** Plans include integrating the model into mobile apps or wearable devices for real-time text recognition.
 
-<h2>Model Evaluation:</h2>
-<p>The model's performance was assessed using various metrics, achieving a validation accuracy of 95.63% while mitigating overfitting.</p>
+## Acknowledgment
+I extend my gratitude to Abhishek Jaiswal for providing the "Standard OCR Dataset" on Kaggle, an integral part of this project.
 
-<h2>Results and Conclusion:</h2>
-<p>The final model achieved a validation accuracy of 95.63%, showing a reliable recognition of characters. Reducing epochs from 32 to 5 improved training time with less overfitting.</p>
+## References
+1. [Standard OCR Dataset - Kaggle](https://www.kaggle.com/datasets/preatcher/standard-ocr-dataset)
+2. [Build a Deep Facial Recognition App from Paper to Code - YouTube](https://www.youtube.com/watch?v=bK_k7eebGgc&list=PLgNJO2hghbmhHuhURAGbe6KWpiYZt0AMH) by Nicholas Renotte
 
-<h2>Usage:</h2>
-<p>The repository contains a Python notebook and the dataset necessary to train the model. Please refer to the notebook for detailed information on training the model and utilizing it for text recognition.</p>
-
-<h2>Contributors:</h2>
-<p>This project was developed by [Your Name].</p>
-
-<h2>Acknowledgment and References:</h2>
-<ul>
-    <li>We extend our gratitude to Abhishek Jaiswal for providing the "Standard OCR Dataset" on Kaggle.</li>
-    <li>The project was inspired by Nicholas Renotte's tutorial on Deep Learning.</li>
-</ul>
-
+For access to the Python notebook and the dataset, please visit the [LetterSense Jupyter Notebook](https://raw.githubusercontent.com/SagarPateI/LetterSense/main/letter_recognition.ipynb).
 
 ***
 # Report:
