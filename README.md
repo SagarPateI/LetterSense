@@ -166,6 +166,7 @@ ACKNOWLEDGMENT
 We would like to thank Abhishek Jaiswal for providing the "Standard OCR Dataset" on Kaggle. This dataset was crucial for our study and helped us in achieving the results we presented. We would also like to acknowledge any funding or resources that have supported our work. Without their support, this study would not have been possible.
 
 REFERENCES 
+
 [1]	Jaiswal, Abhishek. “Standard OCR Dataset.” Kaggle, 7 Oct. 2021, https://www.kaggle.com/datasets/preatcher/standard-ocr-dataset.
 
 [2]	Renotte, Nicholas. “Build a Deep Facial Recognition App from Paper to Code // Deep Learning Project Tutorial.” YouTube, 8 Sept. 2021, https://www.youtube.com/watch?v=bK_k7eebGgc&list=PLgNJO2hghbmhHuhURAGbe6KWpiYZt0AMH.
